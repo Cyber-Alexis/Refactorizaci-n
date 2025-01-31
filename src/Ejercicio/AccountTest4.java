@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class AccountTest {
-	
+class AccountTest4 {
+
 	@Test
     void testDepositAmount() {
         Account myAccount1 = new Account("Alexis Buza", "1234-5678-90-123456789", 6000);
