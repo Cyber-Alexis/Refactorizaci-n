@@ -18,10 +18,11 @@ public class main {
 	     
 	    try {
 	    	 System.out.println("Ingrés al compte");
-	    	 myAccount.depositAmount(1695);
+	    	 myAccount.depositAmount(-1695);
 	    } catch(Exception e){
 	    	 System.err.println(e.getMessage());
 	         System.out.println("Error en l'ingrés");
+	         
 	    }
 
 	     System.out.println("El saldo actual es " + myAccount.getBalance());

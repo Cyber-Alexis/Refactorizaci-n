@@ -11,7 +11,7 @@ public class Account {
 	public Account() {
 		super();
 	}
-
+    
 	//constructor amb arguments
 	public Account(String name, String account, double balance) {
 		super();
@@ -19,22 +19,22 @@ public class Account {
 		this.account = account;
 		this.balance = balance;
 	}
-
+    
 	//mètode per tornar el nom del titular del compte
 	public String getName() {
 		return name;
 	}
-
+    
 	//mètode per actualizar el nom del titular del compte
 	public void setName(String name) {
 		this.name = name;
 	}
-
+    
 	//mètode per tornar el numero de compte
 	public String getAccount() {
 		return account;
 	}
-
+    
 	//mètode per tornar el saldo disponible del compte
 	public double getBalance() {
 		return balance;
@@ -61,5 +61,5 @@ public class Account {
     		throw new Exception ("No hi ha suficient saldo");
     	balance -= amount;
     }
-   
+    
 }
